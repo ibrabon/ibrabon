@@ -14,3 +14,10 @@ while((b-a)/2>eps)
 	end
 end
 min = (a+b)/2;
+
+x = a0:0.01:b0;
+y = feval(f,x);
+s = 'm';
+
+plot(x,y,s);
+grid;
