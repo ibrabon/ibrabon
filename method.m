@@ -13,3 +13,4 @@ while((b-a)/2>eps)
 			a=x1;
 	end
 end
+min = (a+b)/2;
