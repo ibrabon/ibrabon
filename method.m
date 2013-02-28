@@ -18,6 +18,8 @@ min = (a+b)/2;
 x = a0:0.01:b0;
 y = feval(f,x);
 s = 'm';
-
-plot(x,y,s);
+s1 = 'ro';
+x1 = d;
+y1 = 0 *feval(f,x1);
+plot(x,y,s,x1,y1,s1);
 grid;
